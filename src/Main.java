@@ -30,6 +30,15 @@ public class Main extends Application{
         vbox.setPadding(new Insets(10));
         vbox.setBackground(new Background(new BackgroundFill(Color.PINK, CornerRadii.EMPTY, Insets.EMPTY)));
 
+        Text txt = new Text();
+        txt.setText("Grad Celsius");
+        txt.setStyle("-fx-font-size:14;-fx-font-weight: bold");
+
+        Text txt1 = new Text();
+        txt1.setText("Grad Fahrenheit");
+        txt1.setStyle("-fx-font-size:14;-fx-font-weight: bold");
+
+        Text br = new Text("");   //Abstand zwischen Textfeld und Buttons
 
         Button btn1 = new Button();
         btn1.setText("Convert C -> F");
