@@ -36,11 +36,24 @@ public class Main extends Application{
         btn1.setMinWidth(100);
         btn1.setMinHeight(20);
 
+        EventHandler btn1_handler = new EventHandler() {
+            @Override
+            public void handle(Event event) {
+
+            }
+        };
+
         Button btn2 = new Button();
         btn2.setText("Convert F -> C");
         btn2.setMinWidth(100);
         btn2.setMinHeight(20);
 
+        EventHandler btn2_handler = new EventHandler() {
+            @Override
+            public void handle(Event event) {
+
+            }
+        };
 
         vbox.getChildren().addAll( btn1, btn2);
 
