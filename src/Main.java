@@ -30,48 +30,19 @@ public class Main extends Application{
         vbox.setPadding(new Insets(10));
         vbox.setBackground(new Background(new BackgroundFill(Color.PINK, CornerRadii.EMPTY, Insets.EMPTY)));
 
-        Text txt = new Text();
-        txt.setText("Grad Celsius");
-        txt.setStyle("-fx-font-size:14;-fx-font-weight: bold");
-
-        TextField text = new TextField();
-        text.setMaxWidth(300);
-
-        Text txt1 = new Text();
-        txt1.setText("Grad Fahrenheit");
-        txt1.setStyle("");
-        txt1.setStyle("-fx-font-size:14;-fx-font-weight: bold");
-
-        TextField text1 = new TextField();
-        text1.setMaxWidth(300);
-
-        Text br = new Text("");  //Abstand zwischen Textfeld und Buttons
 
         Button btn1 = new Button();
         btn1.setText("Convert C -> F");
         btn1.setMinWidth(100);
         btn1.setMinHeight(20);
 
-        EventHandler btn1_handler = new EventHandler() {
-            @Override
-            public void handle(Event event) {
-
-            }
-        };
-
         Button btn2 = new Button();
         btn2.setText("Convert F -> C");
         btn2.setMinWidth(100);
         btn2.setMinHeight(20);
 
-        EventHandler btn2_handler = new EventHandler() {
-            @Override
-            public void handle(Event event) {
 
-            }
-        };
-
-        vbox.getChildren().addAll(txt, text, txt1, text1, br, btn1, btn2);
+        vbox.getChildren().addAll( btn1, btn2);
 
         Scene scene = new Scene(vbox);
 
