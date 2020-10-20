@@ -55,7 +55,7 @@ public class Main extends Application{
         EventHandler<MouseEvent> btn1_handler = new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                
+
             }
         };
 
