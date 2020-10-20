@@ -55,11 +55,7 @@ public class Main extends Application{
         EventHandler<MouseEvent> btn1_handler = new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent mouseEvent) {
-                /*int fahrenheit = Integer.parseInt(text1.getText());
-
-                int celsius = (fahrenheit * 9/5) + 32;
-
-                text.setText(String.valueOf(celsius));*/
+                
             }
         };
 
